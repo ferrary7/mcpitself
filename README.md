@@ -107,3 +107,8 @@ mcpitself/
 - GET /agents : Get all agents
 - GET /agents/{agent_id} : Get a specific agent
 - POST /self-improve : Self-improve the system
+
+
+## API doc:
+
+[📘 MCPitself API Documentation](https://olivine-ixia-1e0.notion.site/MCPitself-API-Documentation-1f9d5195e14880618862f190f7b8b47c?pvs=74)
