@@ -1,17 +1,17 @@
-# Multi-Agent Collaborative Programming Interface
+# Model Context Protocol (MCP) Server
 
-A system that uses multiple AI agents to collaborate on software development tasks.
+The MCP server, named `mcpitself`, is designed to facilitate the creation and management of Model Context Protocols. It leverages a multi-agent system to automate and streamline the development of new MCPs.
 
 ## Overview
 
-This application implements a multi-agent system where different specialized agents (Planner, Architect, Coder, Memory) work together to solve software development problems. The agents communicate through a message-passing system and can handle various tasks like planning projects, designing architectures, and writing code.
+`mcpitself` is a sophisticated system that uses specialized agents to collaborate on software development tasks. These agents communicate through a structured message-passing system and can handle various tasks like planning projects, designing architectures, and writing code.
 
-## Features
+## Key Features
 
-- **Multiple Specialized Agents**: Different agents with specific roles and capabilities
-- **Message-Based Communication**: Agents communicate through a structured message system
-- **AI-Powered Responses**: Uses Gemini API to generate intelligent responses
-- **Persistent Memory**: Stores conversation history and agent states
+- **Collaborative Multi-Agent System**: Includes Planner, Architect, Coder, and Memory agents, each with specialized roles.
+- **AI-Powered Decision Making**: Utilizes the Gemini API for generating intelligent responses and content.
+- **Persistent Memory**: Stores conversation history and agent states for future reference.
+- **Extensible and Modular**: Designed to be easily extended with new agents or capabilities.
 
 ## Installation
 
@@ -19,7 +19,7 @@ This application implements a multi-agent system where different specialized age
    ```bash
    git clone https://github.com/yourusername/mcpitself.git
    cd mcpitself
-
+   ```
 2. Install dependencies:
    
    ```bash
